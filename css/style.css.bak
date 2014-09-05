@@ -216,6 +216,7 @@ font-size:32px;
 font-weight: 300;
 padding-bottom:25px;
 font-family: Oswald;
+text-transform: uppercase;
 }
 
 .roof {

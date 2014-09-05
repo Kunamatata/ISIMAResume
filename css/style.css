@@ -197,7 +197,7 @@ transition: all 1s;
 
 #profile:hover
 {
--webkit-filter:brightness(100%)
+-webkit-filter:brightness(100%);
 }
 
 #profile li {
