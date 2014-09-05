@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Maxime Caly</title>
+   <link href="css/style.css" rel="stylesheet" type="text/css">
+   <link rel="shortcut icon" href="img/favicon.ico">
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+   <script type="text/javascript" src="js/smoothscroll.js"></script>
+   <link href="stickyNavbar/animate.min.css" rel="stylesheet" type="text/css">
+   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+   <script>
+   $(document).ready(function(){
+     $('body').fadeIn(2000);
+  });
+   </script>
+</head>
+<div id="container" name="container" style="position: absolute; top: 0; right: 0; bottom: 0; left: 0;">
+   <header>
+      <h1>Maxime Caly</h1>
+      <a href="#profile" class="smoothScroll">
+         <i class="Chevron"></i>
+      </a>
+   </header>
+   <nav style="z-index: 9999">
+      <ul class="nav navbar-nav">
+         <li class="menuItem"><a href="#profile" class="">Profile</a></li>
+         <li class="menuItem"><a href="#education" class="">Education</a></li>
+         <li class="menuItem"><a href="#experience" class="">Experiences</a></li>
+         <li class="menuItem"><a href="#reference" class="">References</a></li>
+      </ul>
+      <nav>
+         <script>
+         $(function () {
+            $('nav').stickyNavbar({
+            activeClass: "active",          // Class to be added to highlight nav elements
+            sectionSelector: "scrollto",    // Class of the section that is interconnected with nav links
+            animDuration: 300,              // Duration of jQuery animation
+            startAt: 0,                     // Stick the menu at XXXpx from the top of the this() (nav container)
+            easing: "linear",               // Easing type if jqueryEffects = true, use jQuery Easing plugin to extend easing types - gsgd.co.uk/sandbox/jquery/easing
+            animateCSS: true,               // AnimateCSS effect on/off
+            animateCSSRepeat: false,        // Repeat animation everytime user scrolls
+            cssAnimation: "fadeInDown",     // AnimateCSS class that will be added to selector
+            jqueryEffects: false,           // jQuery animation on/off
+            jqueryAnim: "slideDown",        // jQuery animation type: fadeIn, show or slideDown
+            selector: "a",                  // Selector to which activeClass will be added, either "a" or "li"
+            mobile: false,                  // If false nav will not stick under 480px width of window
+            mobileWidth: 480,               // The viewport width (without scrollbar) under which stickyNavbar will not be applied (due usability on mobile devices)
+            zindex: 9999,                   // The zindex value to apply to the element: default 9999, other option is "auto"
+            stickyModeClass: "sticky",      // Class that will be applied to 'this' in sticky mode
+            unstickyModeClass: "unsticky"   // Class that will be applied to 'this' in non-sticky mode
+         });
+});
+</script>
+</div>
+<div id="content">
+   <div id="profile" class="scrollto">
+      <div class="roof"></div>
+      <h1>WHO AM I?</h1>
+      <div class="span1">
+         <li>Name: Maxime Caly</li>
+         <li>Date of birth: 20 March 1993</li>
+         <li>Nationality: French</li>
+         <li>Address: 19 Boulevard Paul Pochet Lagaye Clermont-Ferrand 63000</li>
+         <li>Phone: 06 63 94 15 22</li>
+         <li>Email: calymaxi@poste.isima.fr</li>
+      </div>
+      <div class="span2">
+         Currently student at ISIMA in France. I have successfully passed the 1st year. Second year approaches with a specialization in Software engineering.
+      </div>
+      <div style="display: block; clear: both;"></div>
+   </div>
+
+   <div id="education" class="scrollto trans">
+      <div class="roof"></div>
+      <h1>EDUCATION</h1>
+      <div class="education-section">
+         <div class="span3">
+            <small>September&nbsp;&nbsp;&nbsp;&nbsp;June</small>
+            <h1>2013 - 2016</h1>
+            <h3>ISIMA Clermont-Ferrand</h3>
+            <p><small>Engineering School in Computer Science</small></p>
+         </div>
+      </div>
+      <div class="education-section">
+         <div class="span4">
+            <small>September&nbsp;&nbsp;&nbsp;&nbsp;June</small>
+            <h1>2011 - 2013</h1>
+            <h3>IUT of Clermont-Ferrand</h3>
+            <p><small>Computer Science</small></p>
+         </div>
+      </div>
+   </div>
+
+   <div id="experience" class="scrollto">
+      <div class="roof"></div>
+      <h1>Experiences</h1>
+      <h2>Internship in Analysis, Conception & Development of a BI Pentaho processing chain - Database process
+         <br />Eurogiciel
+         <br />April 2013 – June 2013 (3 months) Toulouse
+      </h2>
+      <br />
+      <p>Intern in Analysis, Conception & Development of BI Pentaho Data Links<br />
+         <li>Gathering and Analyzing of specific company need and study of current environments</li>
+         <li>Generated possible solutions to replace outdated system,(SQL Manager/ MySQL / Kettle Pentaho), developed data processing chain (Kettle, SQL), and tested chosen solution.</li>
+         <br />
+         First internship, great experience in both technical and personal aspects. Throughout the placement, I acquired valuable technical knowledge in database management and data processing (ETL Software) as well as Python scripting for LDAP.<br />
+         Introduced to my first business environment. Learned to work independently and to set daily goals to reach. Strengthened various skills such as problem solving, project management and multitasking in a team based environment.
+      </p>
+   </div>
+
+
+   <div id="reference" class="scrollto">
+    <div class="roof"></div>
+    <h1>References</h1>
+    <p>
+      <h2>Olivier dufailly<br />
+         CIO at Eurogiciel<br /></h2><br />
+         During his internship at Eurogiciel, Maxime did a great job. I was able to understand our needs and to learn a wide set of new technologies (from him). <br />The result of his tasks is used on a regular basis for our BI reporting.
+      </p>
+      <div id="footer">
+         All design and content written by Caly Maxime
+         <script>
+         var theDate=new Date()
+         document.write(theDate.getFullYear())
+         </script>
+      </div>
+   </div>
+</div>
+</div>
+<!-- all these references goes before the closing body tag-->
+<script src="stickyNavbar/jquery.easing.min.js"></script>
+<script src="stickyNavbar/jquery.stickyNavbar.min.js"></script>
+</body>
+</html>
+
+
