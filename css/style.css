@@ -184,6 +184,7 @@ nav ul li a:hover {
 -webkit-filter:brightness(85%);
 background-position: 50% 50%;
 background-image:url(../img/fields.jpg);
+background-size: cover;
 min-height: 100%;
 height: auto;
 padding: 6%;
@@ -233,7 +234,8 @@ background: #fff;
 
 
 #education{
-background-position:center top;
+background-position: top center;
+//Not working compared to other sections background-size: cover;
 background-image:url(../img/coffee.jpg);
 min-height: 100%;
 height: auto;
@@ -241,11 +243,12 @@ padding: 6%;
 margin: 0 auto;
 text-align: left;
 border-bottom: 5px solid #bfc297;
-    -moz-transition: background-position 2s ease-in-out;
-    -o-transition: background-position 2s ease-in-out;
-    -webkit-transition: background-position 2s ease-in-out;
-    transition: background-position 2s ease-in-out;
+-moz-transition: all 3s ease-in-out;
+-webkit-transition: all 3s ease-in-out;
+transition: all 3s ease-in-out;
+
 }
+
 
 #education:hover{
  background-position: top right;
@@ -317,6 +320,7 @@ background-color:rgba(255,255,255,0.5);
 #experience{
 background-position:center bottom;
 background-image: url(../img/computer.jpg);
+background-size: cover;
 min-height: 100%;
 height: auto;
 padding: 6%;
@@ -324,9 +328,9 @@ margin: 0 auto;
 text-align: left;
 color: #fff;
 border-bottom: 5px solid #311b0d;
--moz-transition: all 2s ease;
--webkit-transition: all 2s ease;
-transition: all 2s ease;
+-moz-transition: all 3s ease;
+-webkit-transition: all 3s ease;
+transition: all 3s ease;
 }
 
 #experience:hover{
@@ -336,6 +340,7 @@ transition: all 2s ease;
 #reference{
 background-position:100% 5%;
 background-image:url(../img/desktop.jpg);
+background-size: cover;
 min-height: 100%;
 height: auto;
 padding: 6%;
