@@ -14,21 +14,19 @@ html,body,div,pre,p,img,span,ul,li,section,h1,time,hr,hgroup,a,img,aside,nav,for
 	outline: 0;
 	font-size: 100%;
 	text-decoration: none;
-	font-family:inherit;
+	font-family:Rosario;
 }
-
-
 
 
 header
 {
-background-image: url("../img/background.jpg");
-min-height: 1113px;
-text-align:center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background-image: url("../img/background.jpg");
+	min-height: 1113px;
+	text-align:center;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
 }
 
 header h1
@@ -39,7 +37,7 @@ header h1
 	letter-spacing:2px;
 	text-transform:uppercase;
 	color: #FFFFFF;
-	font-family: Oswald;
+	font-family: Montserrat;
 	font-size: 60px;
 }
 
@@ -64,38 +62,38 @@ header h1{
 }
 
 header a {
-position: absolute;
-z-index: 3;
-right: 0;
-bottom: 10%;
-left: 0;
-display: block;
-width: 48px;
-height: 48px;
-border: 4px solid #fff;
-border-radius: 50%;
-margin: 0 auto;
-color: #fff;
-text-align: center;
-text-decoration: none;
+	position: absolute;
+	z-index: 3;
+	right: 0;
+	bottom: 10%;
+	left: 0;
+	display: block;
+	width: 48px;
+	height: 48px;
+	border: 4px solid #fff;
+	border-radius: 50%;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
 }
 
 
 header a:hover {
-position: absolute;
-z-index: 3;
-right: 0;
-bottom: 10%;
-left: 0;
-display: block;
-width: 48px;
-height: 48px;
-border: 2px solid #fff;
-border-radius: 50%;
-margin: 0 auto;
-color: #fff;
-text-align: center;
-text-decoration: none;
+	position: absolute;
+	z-index: 3;
+	right: 0;
+	bottom: 10%;
+	left: 0;
+	display: block;
+	width: 48px;
+	height: 48px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
 
 }
 
@@ -157,10 +155,10 @@ nav ul li a {
   margin: 0px;
   padding: 0px 15px 0px 15px;
   color: #000;
-  font-family:Oswald;
-   -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    transition: all .5s;
+  font-family:Montserrat;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 nav ul li a:hover {
@@ -181,19 +179,25 @@ nav ul li a:hover {
 
 
 #profile {
--webkit-filter:brightness(85%);
-background-position: 50% 50%;
-background-image:url(../img/fields.jpg);
-background-size: cover;
-min-height: 100%;
-height: auto;
-padding: 6%;
-text-align: left;
-border-bottom: #ad824c   5px solid;
--moz-transition: all 1s;
--webkit-transition: all 1s;
-transition: all 1s;
+	-webkit-filter:brightness(85%);
+	background-position: 50% 50%;
+	background-image:url(../img/fields.jpg);
+	background-size: cover;
+	min-height: 100%;
+	height: auto;
+	padding: 6%;
+	text-align: left;
+	border-bottom: #ad824c   5px solid;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
 
+
+
+#profile p, li{
+	color: black;
+	font-weight: 700;
 }
 
 #profile:hover
@@ -202,50 +206,69 @@ transition: all 1s;
 }
 
 #profile li {
-padding: 9px 0;
-border-bottom: 1px solid #e1e1e1;
-color: #252525;
-text-decoration: none;
-list-style-type: none;
-list-style-image: none;
+	padding: 9px 0;
+	border-bottom: 1px solid #e1e1e1;
+	color: black;
+	text-decoration: none;
+	list-style-type: none;
+	list-style-image: none;
 }
 
 #profile h1, #education h1, #experience h1, #reference h1{
-text-align: center;
-text-decoration: none;
-font-size:32px;
-font-weight: 300;
-padding-bottom:25px;
-font-family: Oswald;
-text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	font-size:32px;
+	font-weight: 300;
+	padding-bottom:25px;
+	font-family: Montserrat;
+	text-transform: uppercase;
 }
 
+h2 a{
+ color : #FFFFFF;
+ font-size: 1.35em;
+  text-shadow: 2px 2px 2px #000000;
+  	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+h2 a:visited{
+ text-decoration: none;
+ color: #FFFFFF;
+}
+
+h2 a:hover{
+ color: #b8602f; 
+}
+
+
 .roof {
-display: block;
-height: 1px;
-background: #000;
-margin:  10px;
-margin-bottom:50px;
+	display: block;
+	height: 1px;
+	background: #000;
+	margin:  10px;
+	margin-bottom:50px;
 }
 
 #experience .roof{
-background: #fff;
+	background: #fff;
 }
 
 
 #education{
-background-position: top center;
-//Not working compared to other sections background-size: cover;
-background-image:url(../img/coffee.jpg);
-min-height: 100%;
-height: auto;
-padding: 6%;
-margin: 0 auto;
-text-align: left;
-border-bottom: 5px solid #bfc297;
--moz-transition: all 3s ease-in-out;
--webkit-transition: all 3s ease-in-out;
-transition: all 3s ease-in-out;
+	background-position: top center;
+	//Not working compared to other sections background-size: cover;
+	background-image:url(../img/coffee.jpg);
+	min-height: 100%;
+	height: auto;
+	padding: 6%;
+	margin: 0 auto;
+	text-align: left;
+	border-bottom: 5px solid #bfc297;
+	-moz-transition: all 3s ease-in-out;
+	-webkit-transition: all 3s ease-in-out;
+	transition: all 3s ease-in-out;
 
 }
 
@@ -331,6 +354,11 @@ border-bottom: 5px solid #311b0d;
 -moz-transition: all 3s ease;
 -webkit-transition: all 3s ease;
 transition: all 3s ease;
+}
+
+#experience p, li{
+	color: white;
+	font-family: Rosario;
 }
 
 #experience:hover{
