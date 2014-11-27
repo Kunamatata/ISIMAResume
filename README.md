@@ -1,4 +1,4 @@
-Online Personnal Website
+#Online Personnal Website
 
 Welcome, this project was meant to be a personnal project oriented in web designing and programming. This website is a sort of online resume which can be used as another support for the paper version of my resume.
 This can also show what I am capable of in a limited amount of time.
